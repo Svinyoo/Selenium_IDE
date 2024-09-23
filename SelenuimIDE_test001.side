@@ -1,0 +1,170 @@
+{
+  "id": "11e5deb9-b138-4328-afa6-7ceb2f0d2ac6",
+  "version": "2.0",
+  "name": "test001",
+  "url": "https://mega.trcloud.co",
+  "tests": [{
+    "id": "e2925fdc-ad68-4165-ba7e-e3ded47bc39a",
+    "name": "001",
+    "commands": [{
+      "id": "51b8e39e-e42a-46aa-9c1b-c178140c21ae",
+      "comment": "",
+      "command": "open",
+      "target": "/application/company-list/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bc766ae-0fe7-4192-a191-036d24557865",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1600x801",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d649e3a-f9f2-4619-86a6-b26ce00ef04d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-content",
+      "targets": [
+        ["css=.body-content", "css:finder"],
+        ["xpath=//section[@id='page-content']/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3add1095-5161-49da-80e3-1cd89bd07a4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .btn > .hidden-xs",
+      "targets": [
+        ["css=tr:nth-child(3) .btn > .hidden-xs", "css:finder"],
+        ["xpath=//tbody[@id='get_company']/tr[3]/td[7]/button/span", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[7]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d11232dd-9d26-403e-b484-6dee7b28faa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success:nth-child(2)",
+      "targets": [
+        ["css=.btn-success:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' เปลี่ยน')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10b858e1-6559-45c4-b5fd-51f18dc32af7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=การบัญชี",
+      "targets": [
+        ["linkText=การบัญชี", "linkText"],
+        ["css=.sidebar-menu > .submenu:nth-child(2) > a", "css:finder"],
+        ["xpath=//aside[@id='sidebar-left']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[3]", "xpath:href"],
+        ["xpath=//aside/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acb29398-9b87-44eb-af1c-2b9a62f4aff9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submenu:nth-child(3) .text",
+      "targets": [
+        ["css=.submenu:nth-child(3) .text", "css:finder"],
+        ["xpath=//aside[@id='sidebar-left']/ul/li[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'การขาย & รายได้')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d73e8bf-558d-4092-8b72-a0428f8528a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=การซื้อ & รายจ่าย",
+      "targets": [
+        ["linkText=การซื้อ & รายจ่าย", "linkText"],
+        ["css=.submenu:nth-child(4) > a", "css:finder"],
+        ["xpath=//aside[@id='sidebar-left']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[5]", "xpath:href"],
+        ["xpath=//aside/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58400c9a-dd66-403e-a9c1-22b5262d0b13",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=การเงิน",
+      "targets": [
+        ["linkText=การเงิน", "linkText"],
+        ["css=.sidebar-menu > .submenu:nth-child(5) > a", "css:finder"],
+        ["xpath=//aside[@id='sidebar-left']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[6]", "xpath:href"],
+        ["xpath=//aside/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca381669-0052-45bf-b85b-be88872ba8c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidebar-menu > .submenu:nth-child(6) > a",
+      "targets": [
+        ["css=.sidebar-menu > .submenu:nth-child(6) > a", "css:finder"],
+        ["xpath=//aside[@id='sidebar-left']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[7]", "xpath:href"],
+        ["xpath=//aside/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8043e52f-a1b6-465a-a612-e4527836f74e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=คลังสินค้า",
+      "targets": [
+        ["linkText=คลังสินค้า", "linkText"],
+        ["css=.sidebar-menu > .submenu:nth-child(7) > a", "css:finder"],
+        ["xpath=//aside[@id='sidebar-left']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[10]", "xpath:href"],
+        ["xpath=//aside/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6501a5f0-4b87-409c-8177-eb4d1288b755",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submenu:nth-child(8) .text",
+      "targets": [
+        ["css=.submenu:nth-child(8) .text", "css:finder"],
+        ["xpath=//aside[@id='sidebar-left']/ul/li[8]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'ทะเบียนสินทรัพย์')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6b99d02-e9eb-4124-9ed6-0428835198b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=รายงาน",
+      "targets": [
+        ["linkText=รายงาน", "linkText"],
+        ["css=.submenu:nth-child(9) > a", "css:finder"],
+        ["xpath=//aside[@id='sidebar-left']/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[11]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "42ca2b60-9bb0-435c-80e7-46f588ac70fb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e2925fdc-ad68-4165-ba7e-e3ded47bc39a"]
+  }],
+  "urls": ["https://mega.trcloud.co/"],
+  "plugins": []
+}
